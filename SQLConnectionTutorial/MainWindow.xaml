@@ -34,6 +34,6 @@
                VerticalAlignment="Center"
                HorizontalAlignment="Center"
                Content="{Binding TextBox, UpdateSourceTrigger=PropertyChanged}"/>
-        <Label/>
+        <TextBlock/>
     </Grid>
 </Window>
