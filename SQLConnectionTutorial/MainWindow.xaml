@@ -27,6 +27,12 @@
                  HorizontalAlignment="Center"
                  VerticalAlignment="Center"
                  Height="20"
-                 Width="200"/>
+                 Width="200"
+                 Text="{Binding TextBox, UpdateSourceTrigger=PropertyChanged}"/>
+        <Label Grid.Row="1"
+               Grid.Column="0"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               Content="{Binding TextBox, UpdateSourceTrigger=PropertyChanged}"/>
     </Grid>
 </Window>
